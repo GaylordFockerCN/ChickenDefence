@@ -1,0 +1,562 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\View">
+      <UniqueIdentifier>{754f2ba5-67c2-47ed-8402-f9edd346a8b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Model">
+      <UniqueIdentifier>{ebee5513-a0d6-410e-a82c-3c24f15a86d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Ctrl">
+      <UniqueIdentifier>{da9d1a26-c77e-43e6-b06b-d6cf5ce074e7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HelloWorldScene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\BulletAnchor.cpp">
+      <Filter>src\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\BulletBase.cpp">
+      <Filter>src\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\BulletBlueStar.cpp">
+      <Filter>src\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\BulletLittleAnchor.cpp">
+      <Filter>src\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\BulletPin.cpp">
+      <Filter>src\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\BulletRocket.cpp">
+      <Filter>src\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\BulletStar.cpp">
+      <Filter>src\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Carrot.cpp">
+      <Filter>src\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Entity.cpp">
+      <Filter>src\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MonsterBase.cpp">
+      <Filter>src\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\TowerAnchor.cpp">
+      <Filter>src\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\TowerBall.cpp">
+      <Filter>src\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\TowerBase.cpp">
+      <Filter>src\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\TowerBlueStar.cpp">
+      <Filter>src\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\TowerFireBottle.cpp">
+      <Filter>src\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\TowerPin.cpp">
+      <Filter>src\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\TowerPlane.cpp">
+      <Filter>src\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\TowerRocket.cpp">
+      <Filter>src\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\TowerSnow.cpp">
+      <Filter>src\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\TowerStar.cpp">
+      <Filter>src\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\TowerSun.cpp">
+      <Filter>src\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\VictimEntityBase.cpp">
+      <Filter>src\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\BarrierBase.cpp">
+      <Filter>src\Ctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\BarrierFactory.cpp">
+      <Filter>src\Ctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\BarrierManager.cpp">
+      <Filter>src\Ctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\BulletFactory.cpp">
+      <Filter>src\Ctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\BulletManager.cpp">
+      <Filter>src\Ctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CollisionManager.cpp">
+      <Filter>src\Ctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Config.cpp">
+      <Filter>src\Ctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CsvUtil.cpp">
+      <Filter>src\Ctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\DynamicPropertyInterFace.cpp">
+      <Filter>src\Ctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\EntityLayerBase.cpp">
+      <Filter>src\Ctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameManager.cpp">
+      <Filter>src\Ctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HpSlot.cpp">
+      <Filter>src\Ctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LevelConfigUtil.cpp">
+      <Filter>src\Ctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LocalDataUtil.cpp">
+      <Filter>src\Ctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MapUtil.cpp">
+      <Filter>src\Ctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MonsterBuilder.cpp">
+      <Filter>src\Ctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MonsterFactory.cpp">
+      <Filter>src\Ctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MonsterManager.cpp">
+      <Filter>src\Ctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MoveControllerBase.cpp">
+      <Filter>src\Ctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NumSprite.cpp">
+      <Filter>src\Ctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SceneBase.cpp">
+      <Filter>src\Ctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SceneFactory.cpp">
+      <Filter>src\Ctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SceneManager.cpp">
+      <Filter>src\Ctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SharedMenu.cpp">
+      <Filter>src\Ctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SoundUtil.cpp">
+      <Filter>src\Ctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\TowerFactory.cpp">
+      <Filter>src\Ctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\TowerManager.cpp">
+      <Filter>src\Ctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\TowerOptBtn.cpp">
+      <Filter>src\Ctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\VisibleRect.cpp">
+      <Filter>src\Ctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\BarriersLayer.cpp">
+      <Filter>src\View</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\BulletsLayer.cpp">
+      <Filter>src\View</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CountDownLayer.cpp">
+      <Filter>src\View</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\DataCollectLayer.cpp">
+      <Filter>src\View</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\DesignLayer.cpp">
+      <Filter>src\View</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameEndLayer.cpp">
+      <Filter>src\View</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameSettingScene.cpp">
+      <Filter>src\View</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HelpLayer.cpp">
+      <Filter>src\View</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameScene.cpp">
+      <Filter>src\View</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HelpMenuPanelLayer.cpp">
+      <Filter>src\View</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HelpScene.cpp">
+      <Filter>src\View</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LevelSelectLayer.cpp">
+      <Filter>src\View</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LevelSelectScene.cpp">
+      <Filter>src\View</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LoadingScene.cpp">
+      <Filter>src\View</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LoadingSourceLayer.cpp">
+      <Filter>src\View</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MenuPanelLayer.cpp">
+      <Filter>src\View</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MenusLayer.cpp">
+      <Filter>src\View</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MonsterHelpLayer.cpp">
+      <Filter>src\View</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MonsterLayer.cpp">
+      <Filter>src\View</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\OptionLayer.cpp">
+      <Filter>src\View</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\OptLayer.cpp">
+      <Filter>src\View</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\PageSelectScene.cpp">
+      <Filter>src\View</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\PageViewLayer.cpp">
+      <Filter>src\View</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\PauseLayer.cpp">
+      <Filter>src\View</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ScoreAndControlLayer.cpp">
+      <Filter>src\View</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SpritesLayer.cpp">
+      <Filter>src\View</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\TiledMapLayer.cpp">
+      <Filter>src\View</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\TopPanelLayer.cpp">
+      <Filter>src\View</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\TowerHelpLayer.cpp">
+      <Filter>src\View</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\TowersLayer.cpp">
+      <Filter>src\View</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\WelcomeScene.cpp">
+      <Filter>src\View</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HelloWorldScene.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\BulletAnchor.h">
+      <Filter>src\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\BulletBase.h">
+      <Filter>src\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\BulletBlueStar.h">
+      <Filter>src\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\BulletLittleAnchor.h">
+      <Filter>src\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\BulletPin.h">
+      <Filter>src\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\BulletRocket.h">
+      <Filter>src\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\BulletStar.h">
+      <Filter>src\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Carrot.h">
+      <Filter>src\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Entity.h">
+      <Filter>src\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MonsterBase.h">
+      <Filter>src\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\TowerAnchor.h">
+      <Filter>src\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\TowerBall.h">
+      <Filter>src\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\TowerBase.h">
+      <Filter>src\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\TowerBlueStar.h">
+      <Filter>src\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\TowerFireBottle.h">
+      <Filter>src\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\TowerPin.h">
+      <Filter>src\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\TowerPlane.h">
+      <Filter>src\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\TowerRocket.h">
+      <Filter>src\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\TowerSnow.h">
+      <Filter>src\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\TowerStar.h">
+      <Filter>src\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\TowerSun.h">
+      <Filter>src\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\VictimEntityBase.h">
+      <Filter>src\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\BarrierBase.h">
+      <Filter>src\Ctrl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\BarrierFactory.h">
+      <Filter>src\Ctrl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\BarrierManager.h">
+      <Filter>src\Ctrl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\BulletFactory.h">
+      <Filter>src\Ctrl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\BulletManager.h">
+      <Filter>src\Ctrl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CollisionManager.h">
+      <Filter>src\Ctrl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Config.h">
+      <Filter>src\Ctrl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CsvUtil.h">
+      <Filter>src\Ctrl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\DynamicPropertyInterFace.h">
+      <Filter>src\Ctrl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\EntityLayerBase.h">
+      <Filter>src\Ctrl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\FileLoadUtil.h">
+      <Filter>src\Ctrl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameManager.h">
+      <Filter>src\Ctrl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HpSlot.h">
+      <Filter>src\Ctrl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LevelConfigUtil.h">
+      <Filter>src\Ctrl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LocalDataUtil.h">
+      <Filter>src\Ctrl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MapUtil.h">
+      <Filter>src\Ctrl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MonsterBuilder.h">
+      <Filter>src\Ctrl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MonsterFactory.h">
+      <Filter>src\Ctrl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MonsterManager.h">
+      <Filter>src\Ctrl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MoveControllerBase.h">
+      <Filter>src\Ctrl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NumSprite.h">
+      <Filter>src\Ctrl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\PublicDefine.h">
+      <Filter>src\Ctrl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\PublicSourceDefine.h">
+      <Filter>src\Ctrl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SceneBase.h">
+      <Filter>src\Ctrl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SceneFactory.h">
+      <Filter>src\Ctrl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SceneManager.h">
+      <Filter>src\Ctrl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SharedMenu.h">
+      <Filter>src\Ctrl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SoundUtil.h">
+      <Filter>src\Ctrl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\StringUtil.h">
+      <Filter>src\Ctrl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\TowerFactory.h">
+      <Filter>src\Ctrl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\TowerManager.h">
+      <Filter>src\Ctrl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\TowerOptBtn.h">
+      <Filter>src\Ctrl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\VisibleRect.h">
+      <Filter>src\Ctrl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\BarriersLayer.h">
+      <Filter>src\View</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\BulletsLayer.h">
+      <Filter>src\View</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CountDownLayer.h">
+      <Filter>src\View</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\DataCollectLayer.h">
+      <Filter>src\View</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\DesignLayer.h">
+      <Filter>src\View</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameEndLayer.h">
+      <Filter>src\View</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HelpLayer.h">
+      <Filter>src\View</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameSettingScene.h">
+      <Filter>src\View</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameScene.h">
+      <Filter>src\View</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HelpMenuPanelLayer.h">
+      <Filter>src\View</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HelpScene.h">
+      <Filter>src\View</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LevelSelectLayer.h">
+      <Filter>src\View</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LevelSelectScene.h">
+      <Filter>src\View</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LoadingScene.h">
+      <Filter>src\View</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LoadingSourceLayer.h">
+      <Filter>src\View</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MenuPanelLayer.h">
+      <Filter>src\View</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MenusLayer.h">
+      <Filter>src\View</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MonsterHelpLayer.h">
+      <Filter>src\View</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MonsterLayer.h">
+      <Filter>src\View</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\OptionLayer.h">
+      <Filter>src\View</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\OptLayer.h">
+      <Filter>src\View</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\PageSelectScene.h">
+      <Filter>src\View</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\PageViewLayer.h">
+      <Filter>src\View</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\PauseLayer.h">
+      <Filter>src\View</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ScoreAndControlLayer.h">
+      <Filter>src\View</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SpritesLayer.h">
+      <Filter>src\View</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\TiledMapLayer.h">
+      <Filter>src\View</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\TopPanelLayer.h">
+      <Filter>src\View</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\TowerHelpLayer.h">
+      <Filter>src\View</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\TowersLayer.h">
+      <Filter>src\View</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\WelcomeScene.h">
+      <Filter>src\View</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Classes\replace.dot.sh">
+      <Filter>src\Ctrl</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="..\Resources\ikun\Music\niganma.wav" />
+  </ItemGroup>
+</Project>
